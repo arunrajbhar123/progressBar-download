@@ -2,7 +2,7 @@ const progressBar = document.querySelector("#progressBar");
 const percentage = document.querySelector(".percentage");
 const handleDownload = async () => {
   const url =
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+    "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
 
   const res = await fetch(url);
 
